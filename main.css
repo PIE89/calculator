@@ -1,0 +1,100 @@
+button {
+  color: inherit;
+  background-color: #333;
+  border-radius: 50%;
+  width: 80%;
+  height: 92%;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(120%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 3fr 6fr;
+  background-color: black;
+  min-width: 400px;
+  min-height: 600px;
+  border-radius: 25px;
+}
+
+.screen {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  font-size: 100px;
+  padding: 20px;
+}
+
+.buttons {
+  display: grid;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.row5 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 5px;
+  justify-items: center;
+}
+.AC {
+}
+.grey {
+  background-color: rgb(127, 125, 125);
+}
+.plusMinus {
+}
+.percent {
+}
+.devide {
+}
+.orange {
+  background-color: orange;
+}
+.number {
+}
+.seven {
+}
+.eight {
+}
+.nine {
+}
+.multiply {
+}
+.four {
+}
+.five {
+}
+.six {
+}
+.minus {
+}
+.zero {
+  border-radius: 40%;
+  width: 90%;
+  height: 100%;
+}
+.comma {
+}
+.equal {
+}
